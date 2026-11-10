@@ -2,13 +2,22 @@
 
 A 2D space tower defence game in C++ where planets bend your shots with their gravity.
 
-![Astral Siege gameplay](Assets/README/gameplay.png)
+**Screenshots and gameplay video:** https://chloe-gportfolio.netlify.app/projects/astral-siege
 
-## About
+## About the Game
 
 Enemy ships close in on Earth, and you defend it with a slingshot-style launcher. Your shots curve around the planets' gravity, so aiming means planning around them. Earn coins from kills, spend them on turrets and upgrades, and clear all three levels to win.
 
-Made by a team of five, **The Alpha Beasts**, in C++ on DigiPen's Alpha Engine for Software Development Project 2 at the Singapore Institute of Technology (DigiPen), January – April 2025.
+A team of five, **The Alpha Beasts**, made it in C++ on DigiPen's Alpha Engine for Software Development Project 2 at the Singapore Institute of Technology (DigiPen), January – April 2025.
+
+## My Role
+
+I worked on audio, the currency system, the UI and menus, and some of the art.
+
+- **Audio (C++, FMOD):** built the audio manager and player that load and play the game's music and sound effects.
+- **Currency (C++):** built the coin system for earning, refunds and spending, plus the coin counter and popup text. The team's enemy, weapon and shop code use it to award and spend coins on turrets and upgrades.
+- **UI and menus (C++):** wrote most of the UI manager (fonts, title drawing and screen coordinate conversion) and worked on the menus, including the pause menu and tutorial screen.
+- **Art:** drew some of the game's assets with a teammate.
 
 ## Download and play
 
