@@ -1,0 +1,27 @@
+# Visual Studio cache and user settings
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+.tmp/
+obj/
+Debug/
+Release/
+x64/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.iobj
+*.ipdb
+*.log
+*.tlog
+
+# DigiPen Alpha Engine (not included in this repository)
+Extern/
+
+# Windows
+Thumbs.db
+Desktop.ini
